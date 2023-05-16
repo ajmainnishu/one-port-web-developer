@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -140,4 +140,38 @@ section {
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+
+
+
+.resume-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.education-subject {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.education-year {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.education-description {
+    color: #757575;
+}
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
 }
